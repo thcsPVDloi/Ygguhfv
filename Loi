@@ -66,6 +66,11 @@ _G.Version="Fruit Farm"loadstring(game:HttpGet("https://raw.githubusercontent.co
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
   end
   })   AddButton(Tab1o, {
+     Name = "dex bear",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/Skidlamcho.txt"))()
+  end
+  })   AddButton(Tab1o, {
      Name = "speedhub",
     Callback = function()
 	  --[[
